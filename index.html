@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+  <meta charset="UTF-8">
+  
+  <title>Gym Registration Form</title>
+  <style>
+    
+    body 
+   
+    {
+        background-image: url(gym\ image.webp);
+        background-size: cover;
+    }
+     
+    {
+       
+    
+      font-family: Arial, sans-serif;
+      background: #faf8f8;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    
+    }
+   
+
+    .form-box {
+        color: #fff;
+      background: #f3efef;
+      background: rgba(255, 255, 255, 0.447);
+      backdrop-filter: blur(10px);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 400px;
+    }
+
+    .form-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .form-box label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+      color: #444;
+    }
+
+    .form-box input, 
+    .form-box textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .form-box textarea {
+      resize: none;
+      height: 60px;
+    }
+
+    .form-box input[type="submit"] {
+      background: #333;
+      color: #fff;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+
+    .form-box input[type="submit"]:hover {
+      
+      background: #555;
+    }
+   
+  </style>
+</head>
+
+<body>
+    <center>
+  <div class="form-box">
+    <h2>🏋️ ASM POWER GYM REGISTRATION FORM</h2>
+    <form>
+      <label>First Name:</label>
+      <input type="text" name="firstname" placeholder=" Enter firstname" required>
+
+      <label>Middle name:</label>
+      <input type="text" name="Middle name" placeholder="Enter middle name "required>
+
+      <label>Last Name:</label>
+      <input type="text" name="lastname" placeholder="Enter last name"required>
+
+      <label>Mobile Number:</label>
+      <input type="tel" name="mobile" pattern="[0-9]{10}" placeholder="Enter mobile num"required>
+
+      <label>Email Address:</label>
+      <input type="email" name="email" placeholder="Enter email address" required>
+
+      <label>Address:</label>
+      <textarea name="address" placeholder="Enter your address"></textarea>
+
+      <label>Age:</label>
+      <input type="number" name="age" min="10" max="100" placeholder="Enter your age "required>
+
+      <label>Height (cm):</label>
+      <input type="number" name="height" placeholder="Enter your heights"required>
+
+      <label>Weight (kg):</label>
+      <input type="number" name="weight" placeholder="Enter your weight"required>
+<br>
+   <br>  <center><button><a href="homepage.html">Register</a></button></center>
+     
+    </form>
+  </div>
+  </center>
+</body>
+
+</html>
